@@ -449,7 +449,7 @@ export const projects = [
     id: "project-1",
     title: "R K Global communication",
     github: "https://github.com/mohitbhardwaji/RkWeb",
-    link: "https://rkglobalcomm.com/",
+    link: "https://rk-web.vercel.app/",
     linkedin:"https://www.linkedin.com/company/r-k-global-communication",
     image: rk,
     content:
