@@ -36,6 +36,7 @@ import cyber1 from './cyber1.png';
 import cyberintro from './cyberintro.png';
 import mantra from './mantra.png';
 import rk from './rk.jpg';
+import rklogo from './rkgloballogo.png'
 
 export {
   menu,
@@ -75,5 +76,6 @@ export {
   cyber1,
   cyberintro,
   mantra,
-  rk
+  rk,
+  rklogo
 };

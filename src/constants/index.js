@@ -30,7 +30,8 @@ import {
   cyber1,
   cyberintro,
   mantra,
-  rk
+  rk,
+  rklogo
 } from "../assets";
 
 import {
@@ -472,93 +473,87 @@ export const projects = [
       }
     ],
   },
-  // {
-  //   id: "project-2",
-  //   title: "GreenTrust",
-  //   github: "https://github.com/mittal-parth/GreenTrust",
-  //   link: "https://green-trust-fantom.netlify.app/",
-  //   image: greentrust,
-  //   content:
-  //     "Winning project at 3 hackathons, GreenTrust offers a novel solution for obtaining certification in organic farming by organizing credible and decentralized Participatory Guarantee Systems (PGSs).",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-2",
-  //       icon: SiTailwindcss,
-  //       name: "TailwindCSS"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiNextdotjs,
-  //       name: "Next.js"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiIpfs,
-  //       name: "IPFS"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: SiSolidity,
-  //       name: "Solidity"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: IoIosNotificationsOutline,
-  //       name: "Push Protocol"
-  //     },
-  //   ],
-  // },
-  // {
-  //   id: "project-3",
-  //   title: "ChargeSwap",
-  //   github: "https://github.com/CommanderAstern/ChargeSwap",
-  //   link: "https://devfolio.co/projects/chargeswap-3527",
-  //   image: chargeswap,
-  //   content:
-  //     "A Blockchain-based EV-Battery swapping solution - winning project at ETHIndia'22, the world's largest Ethereum Hackathon",
-  //   stack: [
-  //     {
-  //       id: "icon-1",
-  //       icon: SiReact,
-  //       name: "React"
-  //     },
-  //     {
-  //       id: "icon-3",
-  //       icon: SiWeb3Dotjs,
-  //       name: "Web3.js"
-  //     },
-  //     {
-  //       id: "icon-4",
-  //       icon: SiSolidity,
-  //       name: "Solidity"
-  //     },
-  //     {
-  //       id: "icon-5",
-  //       icon: FaHardHat,
-  //       name: "HardHat"
-  //     },
-  //     {
-  //       id: "icon-6",
-  //       icon: SiIpfs,
-  //       name: "IPFS"
-  //     },
-  //     {
-  //       id: "icon-7",
-  //       icon: SiArduino,
-  //       name: "Arduino"
-  //     },
-  //     {
-  //       id: "icon-8",
-  //       icon: IoIosNotificationsOutline,
-  //       name: "Push Protocol"
-  //     },
-  //   ],
-  // },
+  {
+    id: "project-2",
+    title: "Dynamic QR Tool",
+    link: "https://curious-monstera-227c3d.netlify.app/",
+    image: rklogo,
+    content: 
+      "Dynamic QR is an advanced QR code solution that allows users to create, customize, and update QR codes in real time. With features like editable destinations, scan analytics, and enhanced security, it provides a flexible and efficient way to manage QR codes for businesses, events, and marketing campaigns.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React.js"
+      },
+      {
+        id: "icon-2",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      },
+      {
+        id: "icon-3",
+        icon: SiNodedotjs,
+        name: "Node.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiNestjs,
+        name: "Nest.js"
+      },
+      {
+        id: "icon-5",
+        icon: SiRedux,
+        name: "Redux"
+      },
+      {
+        id: "icon-6",
+        icon: SiMongodb,
+        name: "MongoDB"
+      }
+    ],
+  },
+  {
+    id: "project-3",
+    title: "FlowwFy",
+    // github: "https://github.com/CommanderAstern/ChargeSwap",
+    link: "https://flowwfy.netlify.app/",
+    image: rklogo,
+    content:
+      "Flowwfy is an intelligent flow diagram creation tool that allows users to generate organizational charts, architectural layouts, and connectivity diagrams effortlessly. By simply uploading an Excel file, users can visualize employee structures, device connections, CCTV wiring, and more, providing a clear and comprehensive overview of how everything is interconnected. It is used by RK Global Communication to streamline workflow visualization and enhance operational efficiency.",
+    stack: [
+      {
+        id: "icon-1",
+        icon: SiReact,
+        name: "React.js"
+      },
+      {
+        id: "icon-2",
+        icon: SiNodedotjs,
+        name: "Node.js"
+      },
+      {
+        id: "icon-3",
+        icon: SiNestjs,
+        name: "Nest.js"
+      },
+      {
+        id: "icon-4",
+        icon: SiRedux,
+        name: "Redux"
+      },
+      {
+        id: "icon-5",
+        icon: SiMongodb,
+        name: "MongoDB"
+      },
+      {
+        id: "icon-6",
+        icon: SiTailwindcss,
+        name: "TailwindCSS"
+      }
+    ],
+  },  
   // {
   //   id: "project-4",
   //   title: "Samsotech Table Management System",
